@@ -1,0 +1,35 @@
+{
+  "name": "avored/task",
+  "description": "AvoRed Laravel E commerce - Task List Module",
+  "keywords": ["framework", "task-list" ,"cart","laravel","e commerce","laravel5","shop","shopping-cart","e-commerce","shopping cart","e commerce"],
+  "license": "mit",
+  "authors": [
+    {
+      "name": "Purvesh  ",
+      "email": "ind.purvesh@gmail.com"
+    }
+  ],
+  "type": "mage2-module",
+  "require": {
+    "php": ">=7.1.3",
+    "avored/module-installer": "dev-master",
+    "avored/framework": "dev-master",
+    "avored/ecommerce": "dev-master"
+  },
+
+  "autoload": {
+    "classmap": [
+      "database/migrations"
+    ],
+    "psr-4": {
+      "AvoRed\\Task\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel" : {
+      "providers": [
+        "AvoRed\\Task\\Module"
+      ]
+    }
+  }
+}
