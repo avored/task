@@ -24,12 +24,5 @@
     "psr-4": {
       "AvoRed\\Task\\": "src/"
     }
-  },
-  "extra": {
-    "laravel" : {
-      "providers": [
-        "AvoRed\\Task\\Module"
-      ]
-    }
   }
 }
